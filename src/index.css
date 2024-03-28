@@ -19,7 +19,10 @@ h1 {
 }
 
 .resultado-previsao {
-  color: #fff;
+  color: #160544;
+  background-color: #ffffffe8;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .btn-previsao {
