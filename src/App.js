@@ -32,8 +32,8 @@ function App() {
         <div className='resultado-previsao'>
           <h2>{dadosTempo.name}</h2>
           <p>{dadosTempo.weather[0].description}</p>
-          <p>Temperatura: {dadosTempo.main.temp}°C</p>
-          <p>Umidade: {dadosTempo.main.humidity}%</p>
+          <p>Temperatura: <b>{dadosTempo.main.temp}°C</b></p>
+          <p>Umidade: <b>{dadosTempo.main.humidity}%</b></p>
         </div>
       )}
     </div>
