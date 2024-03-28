@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: linear-gradient(to left, rgba(14, 14, 211, 0.438) 0%, rgba(4, 4, 105, 0.589) 100% ), url(../public/fundo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.resultado-previsao {
+  color: #fff;
+}
+
+.btn-previsao {
+  background-color: red;
+  color: #fff;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  border-radius: 0 10px 10px 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 30px;
+  padding: 8px;
+  font-size: 18px ;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width: 767px) {
+  html, body {
+    overflow-x: hidden;
+  }
 }
